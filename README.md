@@ -111,8 +111,4 @@ DB_PASSWORD=
    ```
 5. Create a Pull Request on GitHub  
 
-## 📩 Contributing  
-Contributions are welcome! Fork the repo, make changes, and create a Pull Request.  
 
-## 📄 License  
-This project is licensed under the MIT License.  
