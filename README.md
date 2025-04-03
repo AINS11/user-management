@@ -3,6 +3,21 @@
 ## 📌 Project Overview  
 This project is a User Management API built with Laravel. It provides user authentication, role-based access, and CRUD operations for user management.  
 
+## Code Structure
+# Controllers
+AuthController.php - Handles authentication (Login, Register, Logout).
+
+UserController.php - Handles CRUD operations for users.
+
+# Services
+UserService.php - Business logic for managing users.
+
+# Repositories
+UserRepository.php - Database interactions for users.
+
+# Middleware
+auth:sanctum - Protects routes with authentication.
+
 ## 🚀 Installation  
 To set up the project:  
 1. Clone the repository:  
