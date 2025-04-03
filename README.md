@@ -7,7 +7,7 @@ This project is a User Management API built with Laravel. It provides user authe
 To set up the project:  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com
+   git clone https://github.com/AINS11/user-management.git
    cd your-repo
    ```
 2. Install dependencies:  
