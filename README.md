@@ -49,6 +49,19 @@ To set up the project:
    ```sh
    php artisan serve
    ```
+
+## **Authentication (Sanctum) Setup**
+Sanctum is used for token-based authentication.
+
+### **Step 1: Publish Sanctum Config**
+```sh
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+```
+
+### **Step 2: Run Migrations**
+```sh
+php artisan migrate:fresh
+```
    
 ## 📜 API Endpoints  
 
@@ -67,7 +80,7 @@ To set up the project:
 ## 🛠️ Running Migrations & Seeders  
 Run database migrations:  
 ```sh
-php artisan migrate
+php artisan migrate:fresh
 ```
 Run seeders:  
 ```sh
