@@ -41,7 +41,7 @@ To set up the project:
    ```sh
    php artisan migrate
    ```
-6. Seed the database (if applicable):  
+6. Seed the database:  
    ```sh
    php artisan db:seed
    ```
@@ -123,5 +123,8 @@ DB_PASSWORD=
    git push origin feature-branch
    ```
 5. Create a Pull Request on GitHub  
+  ```sh
+   git pull origin main
+   ```
 
 
